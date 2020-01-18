@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  color: #353535;
+  font-family: arial, sans-serif;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.fas,
+.fab {
+  color: #606060;
+  font-size: 1.4rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #353535;
+  text-decoration: none;
+}

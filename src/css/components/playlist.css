@@ -1,0 +1,33 @@
+/**
+ * playlist
+ */
+.playlist {
+  display: flex;
+}
+
+.playlist li {
+  width: calc(100% / 5);
+}
+
+.playlist li + li {
+  margin-left: 0.25rem;
+}
+
+.playlist li a {
+  display: block;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.playlist__title {
+  color: #000;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 0 0.4rem;
+}
+
+.playlist__note {
+  font-size: 1.2rem;
+  padding: 0.25rem;
+}

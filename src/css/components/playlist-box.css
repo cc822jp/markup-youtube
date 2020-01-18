@@ -1,0 +1,28 @@
+/**
+ * playlist-box
+ */
+.playlist-box {
+  margin: 2rem 0;
+  border-top: 2px solid #e0e0e0;
+}
+
+.playlist-box__head {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.playlist-box__head h1 {
+  font-size: 1.6rem;
+  color: #000;
+  line-height: 1;
+}
+
+.playlist-box__more {
+  margin-left: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.playlist-box__more .fas {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}

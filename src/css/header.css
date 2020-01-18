@@ -1,0 +1,68 @@
+/**
+ * header
+ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.header__menu {
+  padding: 0 1rem;
+  margin-right: 1.2rem;
+}
+
+.header__logo {
+  width: 9rem;
+}
+
+.header__logo img {
+  display: block;
+  width: 100%;
+}
+
+.header__center {
+  flex-grow: 1;
+  max-width: 775px;
+  padding-bottom: 0.25rem;
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header__other {
+  width: 2rem;
+  text-align: center;
+}
+
+.header__other + .header__other {
+  margin-left: 2.25rem;
+}
+
+.header__other .fas,
+.header__other .fab {
+  font-size: 1.7rem;
+}
+
+.header__other + .header__other {
+  margin-left: 2rem;
+}
+
+.header__thumb {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}

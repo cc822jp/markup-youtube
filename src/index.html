@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Markup Youtube</title>
+    <link rel="stylesheet" href="../node_modules/reset-css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__left">
+        <div class="header__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header__logo">
+          <img src="./images/logo_youtube.png" alt="" />
+        </div>
+      </div>
+
+      <div class="header__center">
+        <div class="search">
+          <div class="search__input">
+            <input type="text" placeholder="検索" />
+          </div>
+          <div class="search__button">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <a class="header__other" href="#">
+          <i class="fas fa-video"></i>
+        </a>
+        <a class="header__other" href="#">
+          <i class="fas fa-th"></i>
+        </a>
+        <a class="header__other" href="#">
+          <i class="fas fa-bell"></i>
+        </a>
+        <a class="header__other" href="#">
+          <img class="header__thumb" src="./images/thumb.png" alt="" />
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__side side">
+        <ul class="menu-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-home"></i>
+              <span>ホーム</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-fire"></i>
+              <span>急上昇</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-folder"></i>
+              <span>登録チャンネル</span>
+            </a>
+          </li>
+        </ul>
+
+        <hr class="side__hr" />
+
+        <ul class="menu-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-list-alt"></i>
+              <span>ライブラリ</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-history"></i>
+              <span>履歴</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-clock"></i>
+              <span>後で見る</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-thumbs-up"></i>
+              <span>高く評価した動画</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-list-ul"></i>
+              <span>フロントエンドTips</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-chevron-down"></i>
+              <span>もっと見る</span>
+            </a>
+          </li>
+        </ul>
+
+        <hr class="side__hr" />
+
+        <h2 class="side__title">登録チャンネル</h2>
+
+        <ul class="menu-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-music"></i>
+              <span>音楽</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-earlybirds"></i>
+              <span>Asato channel</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-plus-circle"></i>
+              <span>チャンネル一覧</span>
+            </a>
+          </li>
+        </ul>
+
+        <hr class="side__hr" />
+
+        <h2 class="side__title">YOUTUBEの他のサービス</h2>
+
+        <ul class="menu-list">
+          <li>
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+              <span>Youtube Premium</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-video"></i>
+              <span>映画と番組</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-gamepad"></i>
+              <span>ゲーム</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-podcast"></i>
+              <span>ライブ</span>
+            </a>
+          </li>
+        </ul>
+
+        <hr class="side__hr" />
+
+        <ul class="menu-list">
+          <li>
+            <a href="#">
+              <i class="fas fa-cog"></i>
+              <span>設定</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-flag"></i>
+              <span>報告履歴</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-question-circle"></i>
+              <span>ヘルプ</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-exclamation-circle"></i>
+              <span>フィードバックの送信</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main__content content">
+        <div class="content__head">
+          <div class="head">
+            <div class="head__cover">
+              <img src="./images/cover.png" alt="" />
+            </div>
+            <div class="head__description">
+              <div class="head__thumb">
+                <img src="./images/thumb.png" alt="" />
+              </div>
+              <div class="head__title">
+                <h1>土曜日のフロントエンドエンジニア</h1>
+                <p>チャンネル登録者数42人</p>
+              </div>
+              <div class="head__menu">
+                <a class="button button--primary" href="#"
+                  >チャンネルをカスタマイズ</a
+                >
+                <a class="button" href="#">YOUTUBE STUDIO</a>
+              </div>
+            </div>
+            <div class="head__menu">
+              <ul class="tab">
+                <li class="is-active">
+                  <a href="#">ホーム</a>
+                </li>
+                <li>
+                  <a href="#">動画</a>
+                </li>
+                <li>
+                  <a href="#">再生リスト</a>
+                </li>
+                <li>
+                  <a href="#">チャンネル</a>
+                </li>
+                <li>
+                  <a href="#">フリートーク</a>
+                </li>
+                <li>
+                  <a href="#">概要</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </li>
+              </ul>
+              <div class="head__menu-more">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__body">
+          <div class="youtube-main">
+            <div class="youtube-main__thumb">
+              <img src="./images/video.png" alt="" />
+            </div>
+            <div class="youtube-main__description">
+              <h1>土曜日のフロントエンドエンジニア誕生物語</h1>
+              <p class="youtube-main__summary">87回視聴・1週間前</p>
+              <div class="youtube-main__note">
+                # 動画対象者について<br /><br />
+                ★　　　　　誰でも<br />
+                ★★　　　　初学者<br />
+                ★★★　　　経験者（1〜3年目）<br />
+                ★★★★　　経験者（3年目〜）<br />
+                ★★★★★　ガチ勢<br />
+              </div>
+              <div class="youtube-main__more">
+                <a href="#">詳細</a>
+              </div>
+            </div>
+          </div>
+          <section class="playlist-box">
+            <div class="playlist-box__head">
+              <h1>アップロード済み</h1>
+              <div class="playlist-box__more">
+                <a href="#">
+                  <i class="fas fa-play"></i>
+                  <span>すべて再生</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <ul class="playlist">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      【IT業界の神話】週110時間労働
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      メルカリの勉強会に参加した 〜 Mercari x Merpay Frontend
+                      Tech Talk vol.4 〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      フロントストリートファイト 〜渋谷編〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      仕事が楽しければ人生は幸せという考え方
+                      〜とある青年に向けて〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      簡易Webアプリをプロが仕上げるとどうなるか(実装編)
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="playlist-box">
+            <div class="playlist-box__head">
+              <h1>アップロード済み</h1>
+              <div class="playlist-box__more">
+                <a href="#">
+                  <i class="fas fa-play"></i>
+                  <span>すべて再生</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <ul class="playlist">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      【IT業界の神話】週110時間労働
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      メルカリの勉強会に参加した 〜 Mercari x Merpay Frontend
+                      Tech Talk vol.4 〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      フロントストリートファイト 〜渋谷編〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      仕事が楽しければ人生は幸せという考え方
+                      〜とある青年に向けて〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      簡易Webアプリをプロが仕上げるとどうなるか(実装編)
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="playlist-box">
+            <div class="playlist-box__head">
+              <h1>アップロード済み</h1>
+              <div class="playlist-box__more">
+                <a href="#">
+                  <i class="fas fa-play"></i>
+                  <span>すべて再生</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <ul class="playlist">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      【IT業界の神話】週110時間労働
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      メルカリの勉強会に参加した 〜 Mercari x Merpay Frontend
+                      Tech Talk vol.4 〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      フロントストリートファイト 〜渋谷編〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      仕事が楽しければ人生は幸せという考え方
+                      〜とある青年に向けて〜
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/video.png" alt="" />
+                    </div>
+                    <div class="playlist__title">
+                      簡易Webアプリをプロが仕上げるとどうなるか(実装編)
+                    </div>
+                    <div class="playlist__note">
+                      1回視聴・35分前
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+/**
+ * button
+ */
+.button {
+  display: inline-block;
+  background-color: #0460d4;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button--primary {
+  padding: 1.1rem 2rem;
+  font-size: 1.1rem;
+}
